@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Khemisset - Festival du Cheval</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🐎 KHEMISSET</div>
+
+  <nav id="nav">
+    <a href="#home">Accueil</a>
+    <a href="#festival">Festival</a>
+    <a href="#regions">Régions</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  <button onclick="toggleDark()">🌙</button>
+</header>
+<h1>festival du cheval</h1>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+  <h1>Festival du Cheval</h1>
+  <p>Khemisset - Zemmour - Oulmès - Zaer</p>
+</section>
+
+<!-- FESTIVAL -->
+<section id="festival">
+  <h2>🐎 Tbourida / Fantasia</h2>
+  <p>
+    Tradition marocaine où les cavaliers exécutent une charge synchronisée 
+    avec tir de poudre noire.
+  </p>
+</section>
+
+<!-- REGIONS -->
+<section id="regions">
+  <h2>🌍 Régions participantes</h2>
+
+  <div class="cards">
+    <div class="card">Zemmour</div>
+    <div class="card">Oulmès</div>
+    <div class="card">Zaer</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2>📸 Galerie</h2>
+  <div class="gallery">
+    <img src="https://thumbs.dreamstime.com/z/fantaisie-art-ancestral-marocain-le-moussa-km-de-sidi-lemhaya-moussem-au-sud-la-ville-photo-prise-moroccon-oujda-ao%C3%BBt-tbourida-p-196166811.jpg?ct=jpeg">
+    <img src="https://www.shutterstock.com/shutterstock/photos/1487673137/display_1500/stock-photo-agadir-morocco-august-local-equestrian-participates-in-a-traditional-fantasia-event-1487673137.jpg">
+    <img src="https://www.shutterstock.com/shutterstock/photos/1852647868/display_1500/stock-photo-equestrian-participates-in-a-traditional-fantasia-event-local-or-moussem-tbourida-in-arabic-and-1852647868.jpg">
+  </div>
+</section>
+
+<!-- MAP -->
+<section>
+  <h2>📍 Localisation</h2>
+  <iframe 
+  src="https://www.google.com/maps?q=khemisset&output=embed"
+  width="100%" height="300"></iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>📞 Contact</h2>
+  <form>
+    <input type="text" placeholder="Nom">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Festival du Cheval - Khemisset</p>
+</footer>
+
+<script src="script.js">function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+
+function toggleMenu() {
+  document.getElementById("nav").classList.toggle("active");
+}</script>
+</body>
+</html>
