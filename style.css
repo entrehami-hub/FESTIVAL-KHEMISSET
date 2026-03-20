@@ -4,6 +4,7 @@ body {
   background: #f4f4f4;
 }
 
+
 header {
   background: #333;
   color: white;
@@ -36,4 +37,14 @@ footer {
 .dark {
   background: #111;
   color: white;
+}
+video {
+  display: block;
+  margin: 20px auto;
+  align: center;
+}
+img {
+  display: block;
+  margin: 20px auto;
+  align :center;
 }
